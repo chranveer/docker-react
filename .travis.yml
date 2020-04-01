@@ -19,3 +19,4 @@ deploy:
   bucket_path: "docker-react"
   on:
     branch: master
+    # Make sure your user has full access for s3 & elasticbeanstac in aws
